@@ -1,1 +1,12 @@
-# Geog458CovidDeathRateVSCounts03
+# Geog458 CovidDeathRate VS Counts 03 -- two maps showing covid death rate and death counts over US in year 2020
+ write up a project description in the `readme.md` file. This file will introduce the project name, a brief introduction, links to the map, screenshots, the primary functions(especially the function which was not covered in the lectures), libraries in use, data sources, credit, acknowledgment, and other necessary information. **(6 points)  
+## Introduction
+This project created a proportional symbol map and a choropleth map based on the US death data of COVID 19 in the year 2020. I named the repository Geog458CovidDeadthRate VS Counts 03 so that the vistors know this is project is talking about something related to Covid Death data. However, because covid is now a very popular topic and people have seen reports and projects about it so much, I added the details about counts vs rates so that vistors will know more about the maps and maybe stay to take a closer look.   
+
+### Map1 Proportional Symbol Map -- Covid19 Death Rates in US 2020
+The map1 is the choropleth map with each county's death rate marked with different colors. If you hover your mouse over one county, the box on the upper left corner will tell you the county name and death rate of 2020. The legend is to the lower left corner of the map, linking the colored counties with their corresponding death rates. 
+
+### Map2 Proportional Symbol Map -- Covid19 Death Counts in US 2020
+The map 2 is a propotional symbol map, representing the death counts of each county with a single dot with white stroke outside. I choose to stick with the white stroke because whatever stroke I use, it is going blend with the color of the symbols and make it harder to follow the legend provided. The proportional symbol map is chosen for county death counts because if a county is small but has more people died, a choropleth map will not be able to show the higher amount of death. If the user click on a dot from the map, a small window will pop up, telling the amount of people died because of covid in 2020. 
+
+According to professor Zhao, the covid death data is collected from New York Times. The population data used for the death rate calculation is from 2018 ACS estimate. Lastly, the map shapefiles are from US Census Bureau. I required data from Professor Zhao's repository [This is an external link to genome.gov](https://github.com/jakobzhao/geog458/tree/master)
