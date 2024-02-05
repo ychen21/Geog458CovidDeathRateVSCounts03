@@ -13,5 +13,9 @@ I also referred to a lot of code from the upper repository provided by Professor
 
 Here are two screenshots taken on my computer when launching the two maps:
 ![map1](img/map1chCovidRate.png)  
-![map2](img/map2dotCovidCount.png)  
+![map2](img/map2dotCovidCount.png) 
+
+links to directly view the two maps:
+[Map 1](https://ychen21.github.io/Geog458CovidDeathRateVSCounts03/map1.html)
+[Map 2](https://ychen21.github.io/Geog458CovidDeathRateVSCounts03/map2.html)
   
